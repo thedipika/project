@@ -1,3 +1,5 @@
+body{ position:relative;}
+
 @media (min-width: 992px) {
     section {
         padding: 20px 0;
@@ -121,7 +123,7 @@ ul.rtpolicy li{ float:left; list-style:none;}
 }
 .mrt70{ margin-top:70px;}
 .content {
-        margin-top: 70px;
+        margin-top: 190px;
     }
 .addposition {
     position: static;
@@ -129,6 +131,14 @@ ul.rtpolicy li{ float:left; list-style:none;}
     width: 100%;
 }
 .add_margin { }
+.affix {
+    top: 20px;
+    left: 17%;
+    z-index: 9999 !important;
+}
+.affix {
+    position: fixed;
+}
 @media only screen and (max-width: 600px) {
     .details_title {
         position: static;
@@ -145,7 +155,7 @@ ul.rtpolicy li{ float:left; list-style:none;}
         top:24%;
         width: 100%;
     }
-
+   
     ul.vertical_nav {
         width: 100%;
         display: inline-block;
